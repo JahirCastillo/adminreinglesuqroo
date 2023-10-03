@@ -1,0 +1,16 @@
+<FilesMatch "\.(xml|txt|css|js)$">
+Header set Cache-Control "max-age=1728000, proxy-revalidate"
+</FilesMatch>
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteEngine on
+RewriteCond $1 !^(index.php|css|js|images|robots.txt)
+RewriteRule ^(.*)$ /Nube/adminre/index.php/$1 [L]
+
+php_value post_max_size 50M
+php_value upload_max_filesize 50M
+php_value memory_limit 512M
+php_value max_execution_time 0

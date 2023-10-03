@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evaluacion>
+    <pregunta numero="1">
+        <planteamiento>Según Euler, en cualquier poliedro convexo hay una propiedad común:</planteamiento>
+        <opciones>
+            <opcion id="a">La suma del número de caras más el número de vértices es igual al número de aristas menos dos</opcion>
+            <opcion id="b">La suma del número de caras más el número de aristas es igual al número de vértices menos dos</opcion>
+            <opcion id="c">La suma del número de caras más el número de vértices es igual al número de aristas más dos</opcion>
+            <opcion id="d">La suma del número de caras más el número de aristas es igual al número de vértices más dos</opcion>
+        </opciones>
+        <respuestacorrecta>c</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="2">
+        <planteamiento>La suma de las edades de tres hermanos es 13, el producto de ellas es 36. El menor tiene los ojos verdes. ¿Cuáles son las edades de cada uno?</planteamiento>
+        <opciones>
+            <opcion id="a">1, 6, 6</opcion>
+            <opcion id="b">4, 5, 5</opcion>
+            <opcion id="c">2, 4, 6</opcion>
+            <opcion id="d">2, 2, 9</opcion>
+        </opciones>
+        <respuestacorrecta>d</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="3">
+        <planteamiento>Un equipo de voleibol ha perdido 10 de 23 partidos jugados. Si gana los siguientes 5, ¿cuál será su porcentaje final de victorias?</planteamiento>
+        <opciones>
+            <opcion id="a">43.47</opcion>
+            <opcion id="b">68.42</opcion>
+            <opcion id="c">64.28</opcion>
+            <opcion id="d">56.52</opcion>
+        </opciones>
+        <respuestacorrecta>c</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="4">
+        <planteamiento>En una reunión todos los asistentes se saludaron entre sí. ¿Cuántas personas había ahí, si en total se dieron 66 saludos?</planteamiento>
+        <opciones>
+            <opcion id="a">11</opcion>
+            <opcion id="b">12</opcion>
+            <opcion id="c">33</opcion>
+            <opcion id="d">66</opcion>
+        </opciones>
+        <respuestacorrecta>b</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="5">
+        <planteamiento>¿Cuál de los siguientes conjuntos de números rompe la regularidad?</planteamiento>
+        <opciones>
+            <opcion id="a">6, 7, 14</opcion>
+            <opcion id="b">8, 7, 15</opcion>
+            <opcion id="c">5, 6, 11</opcion>
+            <opcion id="d">4, 8, 12</opcion>
+        </opciones>
+        <respuestacorrecta>a</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="6">
+        <planteamiento>Considere la lista: 289, 49, 25, 121. De los números: 119, 36, 244, 169, 144. ¿Cuál puede pertenecer a la lista?</planteamiento>
+        <opciones>
+            <opcion id="a">119</opcion>
+            <opcion id="b">36</opcion>
+            <opcion id="c">144</opcion>
+            <opcion id="d">169</opcion>
+        </opciones>
+        <respuestacorrecta>d</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="7">
+        <planteamiento>Una escuela tiene 1000 estudiantes de los cuales 300 son de primer año; 500 son varones y 200 son estudiantes varones de primer año. ¿Cuántos estudiantes no son ni varones ni de primer año?</planteamiento>
+        <opciones>
+            <opcion id="a">300</opcion>
+            <opcion id="b">700</opcion>
+            <opcion id="c">500</opcion>
+            <opcion id="d">400</opcion>
+        </opciones>
+        <respuestacorrecta>d</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="8">
+        <planteamiento>Escoja la opción con que debe llenarse el cuadro número 5:</planteamiento>
+        <recursoplanteamiento>res/practicas/practica1/lec8.png</recursoplanteamiento>
+        <opciones>
+            <opcion id="a">
+                <recursoopcion>res/practicas/practica1/lec8a.png</recursoopcion>
+            </opcion>
+            <opcion id="b">
+                <recursoopcion>res/practicas/practica1/lec8b.png</recursoopcion>
+            </opcion>
+            <opcion id="c">
+                <recursoopcion>res/practicas/practica1/lec8c.png</recursoopcion>
+            </opcion>
+            <opcion id="d">
+                <recursoopcion>res/practicas/practica1/lec8d.png</recursoopcion>
+            </opcion>
+        </opciones>
+        <respuestacorrecta>d</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="9">
+        <planteamiento>Luis compite con sus compañeros para tratar de alcanzar una pelota que se encuentra en un árbol a tres metros de altura. Cada vez que Luís asciende un metro, al tratar de estabilizarse en una posición para impulsarse nuevamente, se desliza y retrocede medio metro. ¿Cuántas veces tiene que impulsarse para alcanzar la pelota?</planteamiento>
+        <opciones>
+            <opcion id="a">Cinco</opcion>
+            <opcion id="b">Seis</opcion>
+            <opcion id="c">Cuatro</opcion>
+            <opcion id="d">Ocho</opcion>
+        </opciones>
+        <respuestacorrecta>a</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="10">
+        <planteamiento>En una circunferencia si se unen 2 puntos se forman 2 regiones, si se unen 3 puntos, de las diferentes maneras posibles, se forman 4 regiones. ¿Cuántas regiones se forman si se unen 5 puntos cualquiera de todas las formas posibles?</planteamiento>
+        <opciones>
+            <opcion id="a">16</opcion>
+            <opcion id="b">6</opcion>
+            <opcion id="c">8</opcion>
+            <opcion id="d">10</opcion>
+        </opciones>
+        <respuestacorrecta>a</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="11">
+        <planteamiento>Un plomero tiene un tubo de 30 metros. Si diariamente corta un pedazo de 2 metros terminará de cortarlo en:</planteamiento>
+        <opciones>
+            <opcion id="a">14 días</opcion>
+            <opcion id="b">16 días</opcion>
+            <opcion id="c">18 días</opcion>
+            <opcion id="d">15 días</opcion>
+        </opciones>
+        <respuestacorrecta>a</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="12">
+        <planteamiento>Mario tiene tantas hermanas como hermanos, pero cada hermana tiene sólo la mitad de hermanas que de hermanos. ¿Cuántos hermanos y hermanas hay en la familia?</planteamiento>
+        <opciones>
+            <opcion id="a">Cuatro hermanas y cuatro hermanos</opcion>
+            <opcion id="b">Cuatro hermanas y tres hermanos</opcion>
+            <opcion id="c">Cuatro hermanos y tres hermanas</opcion>
+            <opcion id="d">Tres hermanos y tres hermanas</opcion>
+        </opciones>
+        <respuestacorrecta>c</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="13">
+        <planteamiento>Un autobús y un tren salen a las 6 de la mañana. Cada 18 minutos sale un autobús y cada 2 horas un tren. ¿A qué hora volverán a salir simultáneamente un tren y un autobús?</planteamiento>
+        <opciones>
+            <opcion id="a">A las 12 del día</opcion>
+            <opcion id="b">A las 4 de la tarde</opcion>
+            <opcion id="c">A las 6 de la tarde</opcion>
+            <opcion id="d">A las 9 de la noche</opcion>
+        </opciones>
+        <respuestacorrecta>a</respuestacorrecta>
+    </pregunta>
+    <pregunta numero="14">
+        <planteamiento>Elija la opción que contiene los elementos faltantes.</planteamiento>
+        <recursoplanteamiento>res/practicas/practica1/lec14.png</recursoplanteamiento>
+        <opciones>
+            <opcion id="a">
+                <recursoopcion>res/practicas/practica1/lec14a.png</recursoopcion>
+            </opcion>
+            <opcion id="b">
+                <recursoopcion>res/practicas/practica1/lec14b.png</recursoopcion>
+            </opcion>
+            <opcion id="c">
+                <recursoopcion>res/practicas/practica1/lec14c.png</recursoopcion>
+            </opcion>
+            <opcion id="d">
+                <recursoopcion>res/practicas/practica1/lec14d.png</recursoopcion>
+            </opcion>
+        </opciones>
+        <respuestacorrecta>a</respuestacorrecta>
+    </pregunta>
+</evaluacion>

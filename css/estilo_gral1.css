@@ -1,0 +1,145 @@
+/* */
+/* 
+    Created on : 11-sep-2014, 10:40:39
+    Author     : Jose Adrian Ruiz Carmona
+*/
+#header{ min-height: 100px; background-color: #EBEAE9;}
+#body_admre{ margin-top: 50px;}
+#content{ min-height: 100px; background-color: #F3F3F3; padding-top: 20px; padding-bottom: 20px;}
+#footer{ min-height: 80px; color: #807D7D;border-top: 2px dotted #C0BEBE; background-color: #E0E0E0; padding: 10px; font-size: 10px; text-align: center;}
+body{background-color: #ABABAB; padding-top: 0px !important; }
+
+.navbar-inverse {background-color: #E0E0E0;border-color: #C0BEBE;border-bottom: 2px dotted #C0BEBE;color: #5F5F5F;}
+#nav_session{padding-top: 10px;padding-left: 55px;padding-right: 55px;}
+.lblnav{font-size: 35px;margin-top: -12px;font-weight: bolder;}
+#btn_regresar,#btn_salir{ width: 100%;}
+/********************* Bootstrap over **********************/
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #1A4F6F;
+    border-color: #17425C;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1F648C;
+    border-color: #1B5375;
+}
+.btn-success {
+    color: #fff;
+    background-color: #4F8360;
+    border-color: #3E684B;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #3F664C;
+    border-color: #33533D;
+}
+.btn-info {
+    color: #fff;
+    background-color: #69A4B6;
+    border-color: #3F869B;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: #52818F;
+    border-color: #48707C;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #BE9356;
+    border-color: #A07D4D;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open>.dropdown-toggle.btn-warning {
+    color: #fff;
+    background-color: #A37F4D;
+    border-color: #81643B;
+}
+.panel-primary>.panel-heading { color: #fff; background-color: #1F648C; border-color: #1B5679;}
+.panel-primary {border-color: #1B5679;}
+.panel-info>.panel-heading {color: #2F5C73;background-color: #C4DBE7;border-color: #416B81;}
+.panel-info {border-color: #416B81;}
+.panel-success>.panel-heading {color: #FFFFFF;background-color: #4F8360;border-color: #32593F;}
+.panel-success {border-color: #32593F;}
+.panel-body {padding: 10px;background-color: #FAFAFA;}
+.form-control input{background-color: #FCFCFC;}
+
+.label-error {color: #BE7E7E !important;}
+input.error {
+    border: 1px solid #E7A0A0 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
+}
+
+
+.btn_closepanel{
+    float: right;
+    margin: 0px;
+    padding: 1px;
+    position: relative;
+    margin-top: -18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.btn_head_panel {
+    float: right !important;
+    margin: 0px;
+    padding: 4px;
+    position: relative;
+    margin-top: -7px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.blockUI.blockMsg.blockPage {
+    z-index: 1000000 !important;
+    background-color: rgb(81, 81, 81);
+}
+
+input.error {
+    border: 1px solid #E09797 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
+    background-color: #EFE0E0 !important;
+}
+label.error {   
+    color: #CF6A6A;
+    font-weight: lighter;
+}
+
+
+label{
+    font-size: 12px !important;
+}
+@media (max-width: 990px){
+    #body_admre {
+        margin-top: 130px;
+    }
+}
+.modal-header {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 11.42857143px;
+    background-color: #1F648C;
+    color: white;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dataTable button{ font-size: 10px !important;padding: 1px;padding-left: 8px;padding-right: 8px;margin-right: 3px;}
+table.dataTable {width: 100% !important;}
+.modal-body{    overflow: hidden;}
+.bootstrap-dialog-message .form-control {margin-bottom: 5px;}
+.altoauto{overflow: auto;height: auto !important; min-height: 27px;}
+.panel_buttopc .btn.col-md-3{width: 24%; margin-right: 1%;}
+.panel_buttopc .btn.col-md-4{width: 32.33333333%; margin-right: 1%;}
+.panel_buttopc {margin-bottom: 10px;}
+.alert {padding: 8px;margin-bottom: 10px;}
